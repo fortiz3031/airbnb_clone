@@ -6,8 +6,13 @@ import { useRouter } from "next/navigation"
 const Logo = () => {
     const router = useRouter()
 
-  return (   
-    <p className="text-2xl text-black" >Spotacrib</p>
+  return (
+    <div
+      className="text-2xl text-black font-bold "
+      onClick={() => router.push("/")}
+    >
+      Spotacrib
+    </div>   
   )
 }
 
