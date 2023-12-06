@@ -109,10 +109,6 @@ const UserMenu: React.FC<UserMenuProps> = ({
                                     onClick={registerModal.onOpen}
                                     label="Sign Up"
                                 />
-                                <MenuItem
-                                    onClick={() => { }}
-                                    label="Dark Mode"
-                                />
                             </>
 
                         )}
